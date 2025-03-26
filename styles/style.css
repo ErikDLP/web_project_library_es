@@ -339,21 +339,29 @@
   background-color: #1f1f1f;
   color: #ffffff;
   display: flex;
+  flex-direction: column;
+  padding: 60px 80px;
 }
 
 .footer__columns {
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer__column_content_hours {
+  margin-left: auto;
 }
 
 .footer__column_content_social {
+  display: flex;
 }
 
 .footer__logo {
+  display: flex;
 }
 
 .footer__column-heading {
+  display: flex;
 }
 
 .footer__list {
@@ -375,4 +383,5 @@
 }
 
 .footer__copyright {
+  margin-top: 100 px;
 }
