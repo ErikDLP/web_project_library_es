@@ -362,6 +362,7 @@
 }
 
 .footer__column-heading {
+  margin-top: 0;
   margin-bottom: 20px;
 }
 
@@ -376,9 +377,11 @@
 }
 
 .footer__column-link {
+  display: flex;
   color: white;
   text-decoration: none;
   column-gap: 10px;
+  align-items: center;
 }
 
 .footer__social-icon {
